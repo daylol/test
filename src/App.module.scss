@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: darkgrey;
+    font-size: 18px;
+}
+
+.App {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    .items {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
